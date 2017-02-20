@@ -1,0 +1,56 @@
+body{
+	background-color: black;
+	margin: 50px;
+}
+.rgt{
+	float: right;
+
+}
+.carousel-inner{
+	height: 500px;
+}
+
+.absolute{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.silver-background{
+	background-color: grey;
+}
+.img-responsive{
+	padding-right: 0px;
+	padding-left: 0px;
+	display: inline;
+}
+.haha{
+	padding: 20px;
+}
+.bodas{
+	color: white;
+}
+.bodas a{
+	color:grey;
+}
+.caption{
+	padding-top: 10px;
+}
+ul{
+	list-style-type: none;
+}
+ul.footer li{
+	display: inline-block;
+	padding-left: 10px;
+	padding-bottom: 20px;
+
+}
+ul.footer li a{
+	color: white;
+}
+.caption{
+	color: white;
+}
+p.hm{
+	padding: 20px;
+}
