@@ -52,5 +52,16 @@ ul.footer li a{
 	color: white;
 }
 p.hm{
-	padding: 20px;
+	padding: 15px;
+	font-size: 12px
+}
+h1{
+	color: white;
+}
+h2{
+	color: white;
+	font-size: 20px;
+}
+p{
+	color: white;
 }
