@@ -73,3 +73,28 @@ h4{
 	color: white;
 
 }
+.banner__event.banner__event--image{
+	width: 100%;
+	border-bottom: 50px;
+}
+.banner__event.banner__event--caption{
+	padding-bottom:;
+}
+.banner__shop--image{
+	margin-top: 20px;
+}
+.box__product{
+	margin-top: 3em;
+}
+.title__product{
+	font-size: 3em;
+	color: white;
+}
+.title__product--related{
+	font-size: 3em;
+	color: white;
+	text-align: center;
+}
+.detail__product{
+	margin-top: 3em;
+}
