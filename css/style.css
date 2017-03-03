@@ -12,8 +12,8 @@ body{
 
 .absolute{
 	position: absolute;
-	left: 0;
-	bottom: 0;
+	left: 0px;
+	bottom: 0px;
 }
 
 .silver-background{
@@ -58,10 +58,18 @@ p.hm{
 h1{
 	color: white;
 }
+h1.judul{
+	font-size: 100px;
+}
 h2{
 	color: white;
 	font-size: 20px;
 }
 p{
 	color: white;
+}
+h4{
+	font-size: 60px;
+	color: white;
+
 }
