@@ -102,3 +102,11 @@ h4{
 .detail__product{
 	margin-top: 3em;
 }
+.image__thumbnail--event1{
+	margin-top: 2px;
+}
+.main-carousel .carousel-cell{
+	width: 100%; /* full width */
+  	height: 624px; /* height of carousel */
+  	text-align: center;
+}
