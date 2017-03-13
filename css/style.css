@@ -4,16 +4,28 @@ body{
     background: -o-radial-gradient(#101024 10%, black 90%); /* For Opera 11.1 to 12.0 */
     background: -moz-radial-gradient(#101024 10%, black 90%); /* For Firefox 3.6 to 15 */
     background: radial-gradient(#101024 10%, black 90%); /* Standard syntax */
-	margin: 50px;
+    font-family: 'Roboto', sans-serif ;
 }
 .rgt{
 	float: right;
 
 }
 .carousel-inner{
-	height: 500px;
+	height: 300px;
 }
 
+.main-carousel {
+	width: 100%;
+}
+
+.main-carousel .carousel-cell:hover img {
+	opacity: 0.4;
+	transition: opacity .4s;
+}
+
+.main-carousel .carousel-cell img {
+	width: 100%;
+}
 .absolute{
 	position: absolute;
 	left: 0px;
@@ -77,6 +89,58 @@ h4{
 	color: white;
 
 }
+
+.navbar {
+	margin-bottom: 0;
+}
+.header {
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-bottom: .5em;
+}
+
+.header.header__medium {
+	font-size: 2em;
+	font-weight: 500;
+}
+
+.text-white {
+	color: whitesmoke!important;
+}
+
+/* big buttons, no circle */
+.flickity-prev-next-button {
+  width: 50px;
+  height: 50px;
+  background: transparent;
+}
+.flickity-prev-next-button:hover {
+  background: transparent;
+}
+/* arrow color */
+.flickity-prev-next-button .arrow {
+  fill: white;
+}
+.flickity-prev-next-button.no-svg {
+  color: white;
+}
+/* hide disabled button */
+.flickity-prev-next-button:disabled {
+  display: none;
+}
+
+.main-carousel .carousel-cell {
+	height: 450px;
+	width: 100%;
+}
+
+.main-carousel .caption {
+    position: absolute;
+    bottom: 4em;
+    background: rgba(0,0,0,0.8);
+    padding: 2em;
+    width: 50%;
+    left: 7em;
+}
 .banner__event.banner__event--image{
 	width: 100%;
 	border-bottom: 50px;
@@ -102,11 +166,7 @@ h4{
 .detail__product{
 	margin-top: 3em;
 }
-.image__thumbnail--event1{
-	margin-top: 2px;
-}
-.main-carousel .carousel-cell{
-	width: 100%; /* full width */
-  	height: 624px; /* height of carousel */
-  	text-align: center;
+
+.navbar-brand img.logo {
+	height: 15px;
 }
