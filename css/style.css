@@ -170,3 +170,12 @@ h4{
 .navbar-brand img.logo {
 	height: 15px;
 }
+.morenews__list {
+	padding-left: 0;
+}
+.morenews__list li{
+	margin-bottom: 2em;
+}
+.morenews__list--title{
+	color: white;
+}
