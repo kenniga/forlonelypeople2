@@ -95,11 +95,16 @@ h4{
 }
 .header {
 	font-family: 'Roboto Condensed', sans-serif;
-	margin-bottom: .5em;
+	margin: 1em 0;
 }
 
 .header.header__medium {
 	font-size: 2em;
+	font-weight: 500;
+}
+
+.header.header__large {
+	font-size: 3em;
 	font-weight: 500;
 }
 
@@ -141,6 +146,11 @@ h4{
     width: 50%;
     left: 7em;
 }
+
+.carousel-cell .header {
+	margin: 0 0 0.5em 0; 
+} 
+
 .banner__event.banner__event--image{
 	width: 100%;
 	border-bottom: 50px;
@@ -169,4 +179,60 @@ h4{
 
 .navbar-brand img.logo {
 	height: 15px;
+}
+
+.thumbnail.thumbnail__featured--images {
+	padding: 0;
+	border-radius: 0;
+}
+
+.thumbnail .overlay.overlay__container {
+	display: block;
+	position: relative;
+
+}
+
+.thumbnail.thumbnail__featured--images .overlay.overlay__fill {
+	opacity: 0;
+	transition: 0.2s;
+}
+
+.thumbnail.thumbnail__featured--images:hover .overlay.overlay__fill {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background: black;
+	text-align: center;
+	opacity: 0.9;
+}
+
+.overlay.overlay__fill .header {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+	font-size: 2em;
+	color: white;
+}
+
+.thumbnail .caption .header {
+	margin-top: 0;
+	font-size: 1.5em;
+	margin-bottom: .5em;
+	text-transform: uppercase;
+}
+
+.thumbnail .caption p {
+	color: #0d0d0d;
+}
+
+.thumbnail.thumbnail__featured--images:hover, a.thumbnail:focus, a.thumbnail.active {
+    border-color: transparent;
+}
+
+.thumbnail.thumbnail__featured--images:hover {
+	color: inherit;
+	text-decoration: none;
 }
