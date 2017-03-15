@@ -67,9 +67,10 @@ ul.footer li a{
 .caption{
 	color: white;
 }
-p.hm{
-	padding: 15px;
-	font-size: 12px
+.thumbnail .caption .hm{
+	padding: 15px;.
+	font-size: 12px;
+	color: white;
 }
 h1{
 	color: white;
@@ -244,4 +245,26 @@ h4{
 }
 .morenews__list--title{
 	color: white;
+}
+.song__number{
+	position: absolute;
+	left: 20px;
+}
+
+ul.song__list li {
+	float: left;
+    width: 33.3%;
+    padding: 16px;
+    padding-left: 50px;
+    position: relative;
+}
+
+ul.song__list li:nth-child(odd) {
+	background: white;
+}
+ul.song__list li:nth-child(even) {
+	background: silver;
+}
+.song__number--artis{
+	margin-top: 0px;
 }
